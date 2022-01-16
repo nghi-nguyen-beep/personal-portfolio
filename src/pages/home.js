@@ -1,13 +1,8 @@
+import './includes/css/home.css';
+
 function Home() {
     return (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'Right',
-            alignItems: 'Right',
-            height: '100vh'
-          }}
-        >
+        <div className= "home-main">
           <h1>Home</h1>
         </div>
       );

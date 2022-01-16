@@ -1,17 +1,21 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import {
   Nav,
   NavLink,
   Bars,
   NavMenu,
+  NavBtn,
+  NavBtnLink
 } from './elements.js';
   
-const Navbar = () => {
+function Navbar() {
   return (
     <>
       <Nav>
         <Bars />
+        <NavBtn>
+          <NavBtnLink to='/'>Nghi Nguyen</NavBtnLink>
+        </NavBtn>
         <NavMenu>
           <NavLink to='/about'>
             About
@@ -24,7 +28,6 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
       </Nav>
-      <Outlet />
     </>
   );
 };
