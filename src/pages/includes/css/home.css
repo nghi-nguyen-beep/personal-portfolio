@@ -1,7 +1,7 @@
 .home-main {
     background-color: #F6F3E8;
-    /* display: flex;
-    justify-content: right;
-    align-items: right; */
-    height: 87vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90vh;
   }
