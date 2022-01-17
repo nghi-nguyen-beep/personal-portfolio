@@ -32,11 +32,11 @@ export const NavLink = styled(Link)`
   transition: transform 250ms;
   &:hover {
     cursor: pointer;
-    transform: translateY(-10px);
+    transform: translateY(-7px);
   }
   &.active {
     color: white;
-    filter: brightness(70%);
+    filter: brightness(80%);
   }
 `;
   

@@ -23,7 +23,7 @@ function Navbar() {
             nghi nguyen
           </NavLink>
         <NavMenu>
-          <NavLink color= '#A9C3EB' to='/about'>
+          <NavLink color= '#78A6EB' to='/about'>
             about
           </NavLink>
           <NavLink color= '#DA7272' to='/art'>

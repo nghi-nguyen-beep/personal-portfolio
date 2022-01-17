@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className= "home-main">
           <div className='home-row-one'>
-            <CircleButton color= "#A9C3EB" route="about"></CircleButton>
+            <CircleButton color= "#78A6EB" route="about"></CircleButton>
           </div>
           <div className='home-row-two'>
             <CircleButton color= "#DA7272" route="art"></CircleButton>
