@@ -19,7 +19,7 @@ function Navbar() {
         {/* <NavBtn>
           <NavBtnLink to='/'>Nghi Nguyen</NavBtnLink>
         </NavBtn> */}
-          <NavLink textColor= '#E4CC9C' fontSize= '32px' tabWidth= '200px' to='/'>
+          <NavLink textcolor= '#E4CC9C' fontSize= '32px' tabwidth= '200px' to='/'>
             nghi nguyen
           </NavLink>
         <NavMenu>

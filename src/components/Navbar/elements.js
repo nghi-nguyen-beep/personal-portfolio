@@ -8,17 +8,20 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   z-index: 12;
+  position: sticky; 
+  top: 0;
+  background-color: #F6F3E8;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
   
 export const NavLink = styled(Link)`
-  color: ${props => props.textColor ? props.textColor : 'white'};
+  color: ${props => props.textcolor ? props.textcolor : 'white'};
   background-color: ${props => props.color ? props.color : 'none'};
   font-family: Ramaraja;
   text-align: center;
   font-size: ${props => props.fontSize ? props.fontSize : '24px'};
-  width: ${props => props.tabWidth ? props.tabWidth : '90px'};
+  width: ${props => props.tabwidth ? props.tabwidth : '90px'};
   display: flex;
   align-items: flex-end;
   justify-content: center;
