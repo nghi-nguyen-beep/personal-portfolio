@@ -6,21 +6,29 @@ export const Nav = styled.nav`
   height: 85px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   z-index: 12;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
   
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: ${props => props.textColor ? props.textColor : 'white'};
+  background-color: ${props => props.color ? props.color : 'none'};
+  font-family: Ramaraja;
+  text-align: center;
+  font-size: ${props => props.fontSize ? props.fontSize : '24px'};
+  width: ${props => props.tabWidth ? props.tabWidth : '90px'};
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
+  height: 44px;
   cursor: pointer;
   &.active {
-    color: #000000;
+    color: white;
+    filter: brightness(70%);
   }
 `;
   
@@ -40,6 +48,8 @@ export const Bars = styled(FaBars)`
   
 export const NavMenu = styled.div`
   display: flex;
+  width: 400px;
+  justify-content: space-evenly;
   /* Second Nav */
   margin-right: 24px;
   /* Third Nav */
@@ -63,10 +73,13 @@ export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #808080;
   padding: 10px 22px;
-  color: #000000;
+  color: white;
   outline: none;
   border: none;
   cursor: pointer;
+  font-family: Ramaraja;
+  text-align: center;
+  font-size: 20px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */

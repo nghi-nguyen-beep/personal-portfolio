@@ -13,12 +13,11 @@
   flex-direction: row;
   justify-content: center;
   width: 100vw;
-  margin-bottom: -23.5px;
 }
 
 .home-row-two {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -24px;
+  margin-top: -44px;
 }

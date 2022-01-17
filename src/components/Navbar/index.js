@@ -7,24 +7,30 @@ import {
   NavBtn,
   NavBtnLink
 } from './elements.js';
+
+import {GlobalStyles} from '../CircleButton/elements.js';
   
 function Navbar() {
   return (
     <>
+    <GlobalStyles />
       <Nav>
         <Bars />
-        <NavBtn>
+        {/* <NavBtn>
           <NavBtnLink to='/'>Nghi Nguyen</NavBtnLink>
-        </NavBtn>
+        </NavBtn> */}
+          <NavLink textColor= '#E4CC9C' fontSize= '32px' tabWidth= '200px' to='/'>
+            nghi nguyen
+          </NavLink>
         <NavMenu>
-          <NavLink to='/about'>
-            About
+          <NavLink color= '#A9C3EB' to='/about'>
+            about
           </NavLink>
-          <NavLink to='/projects'>
-            Projects
+          <NavLink color= '#DA7272' to='/art'>
+            art
           </NavLink>
-          <NavLink to='/art'>
-            Art
+          <NavLink color= '#F0D07D' to='/projects'>
+            projects
           </NavLink>
         </NavMenu>
       </Nav>
