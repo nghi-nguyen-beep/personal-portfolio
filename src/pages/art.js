@@ -13,7 +13,12 @@ function Art() {
           }}
         >
           <div className= "art-header">
-
+            <div className="art-title">
+              art
+            </div>
+            <div className="art-description">
+              Some fun digital art that I started over winter break in order to learn how to draw body proportions. 
+            </div>
           </div>
           <div className= "art-gallery">
             <img src= {chair} alt= "chair" height= {'400px'} width= {'400px'} />

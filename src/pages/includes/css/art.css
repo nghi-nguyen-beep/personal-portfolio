@@ -1,7 +1,33 @@
-.art-gallery {
+.art-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.art-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    margin-bottom: 15px;
+}
+
+.art-title {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    width: 100vw;
+    font-size: 36px;
+    font-family: 'Ramaraja';
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: center; */
 }
