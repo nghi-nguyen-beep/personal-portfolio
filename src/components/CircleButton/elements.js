@@ -15,8 +15,8 @@ export const Button = styled.button`
     background-color: ${props => props.color ? props.color : "black"};
     color: white;
     font-size: 36px;
-    height: 320px;
-    width: 320px;
+    height: 35vh;
+    width: 35vh;
     border: none;
     font-family: 'Ramaraja';
 `;
