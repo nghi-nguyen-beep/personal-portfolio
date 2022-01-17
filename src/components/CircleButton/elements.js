@@ -19,4 +19,9 @@ export const Button = styled.button`
     width: 18vw;
     border: none;
     font-family: 'Ramaraja';
+    transition: transform 250ms;
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-30px);
+    }
 `;
