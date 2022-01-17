@@ -1,7 +1,24 @@
 .home-main {
     background-color: #F6F3E8;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    height: 91vh;
   }
+
+.home-row-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: -21.5px;
+}
+
+.home-row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -21.5px;
+}
