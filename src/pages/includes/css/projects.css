@@ -1,4 +1,4 @@
-.art-main {
+.projects-main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -7,7 +7,7 @@
     /* align-content: center; */
 }
 
-.art-header {
+.projects-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,7 +16,7 @@
     margin-bottom: 15px;
 }
 
-.art-title {
+.projects-title {
     display: flex;
     justify-content: center;
     /* align-content: center; */
@@ -25,7 +25,7 @@
     font-family: 'Ramaraja';
 }
 
-.art-gallery {
+.projects-gallery {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

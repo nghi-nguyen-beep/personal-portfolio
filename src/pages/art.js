@@ -6,18 +6,13 @@ import './includes/css/art.css';
 
 function Art() {
     return (
-        <div className = "art-main"
-          style={{
-            display: 'flex',
-            height: '100vh'
-          }}
-        >
+        <div className = "art-main">
           <div className= "art-header">
             <div className="art-title">
               art
             </div>
             <div className="art-description">
-              Some fun digital art that I started over winter break in order to learn how to draw body proportions. 
+              some fun digital art that I started over winter break in order to learn how to draw body proportions. 
             </div>
           </div>
           <div className= "art-gallery">
