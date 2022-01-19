@@ -7,13 +7,31 @@
     /* align-content: center; */
 }
 
+.projects-img-container {
+    background-color: #eddec0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* border-radius: 50%;  */
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: transform 250ms;
+}
+
+.projects-img-container:hover {
+    cursor: pointer;
+    transform: translateY(-30px);
+  }
+
 .projects-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .projects-title {
@@ -26,10 +44,12 @@
 }
 
 .projects-gallery {
-    width: calc(fit-content + 100px);
+    width: 100vw;
     height: fit-content;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: space-evenly;
     overflow: scroll;
 }

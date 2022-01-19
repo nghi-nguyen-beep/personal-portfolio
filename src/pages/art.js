@@ -7,9 +7,11 @@ import firstPin from '../assets/art/firstPin.png';
 import firstSketch from '../assets/art/firstSketch.png';
 import bunSketch from '../assets/art/bunSketch.png';
 import './includes/css/art.css';
+import PageAnimate from '../components/PageAnimate.js';
 
 function Art() {
     return (
+      <PageAnimate>
         <div className = "art-main">
           <div className= "art-header">
             <div className="art-title">
@@ -19,8 +21,7 @@ function Art() {
               some fun digital art that I started over winter break in order to learn how to draw body proportions. 
             </div>
           </div>
-          <div className= "art-gallery">
-            
+          <div className= "art-gallery">  
               <img src= {aoDai} alt= "aoDai" height= {'450px'} width= {'450px'} />
               <img src= {chair} alt= "chair" height= {'450px'} width= {'450px'} />
               <img src= {maki} alt= "maki" height= {'450px'} width= {'450px'} />        
@@ -31,10 +32,12 @@ function Art() {
 
               <img src= {firstSketch} alt= "firstSketch" height= {'450px'} width= {'450px'} />
               <img src= {bunSketch} alt= "bunSketch" height= {'450px'} width= {'450px'} />
-     
-
           </div>
+          <>
+            scroll horizontally to see more images
+          </>
         </div>
+        </PageAnimate>
       );
 };
 
