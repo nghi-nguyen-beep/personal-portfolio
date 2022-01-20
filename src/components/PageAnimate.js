@@ -13,7 +13,7 @@ const PageAnimate = ({children}) => {
         initial= 'initial' 
         animate= 'animate' 
         exit= 'exit'
-        transition={{duration: 1}}
+        transition={{duration: .8}}
         >
           {children}
       </motion.div>
