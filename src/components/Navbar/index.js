@@ -3,22 +3,13 @@ import {
   Nav,
   NavLink,
   Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink
+  NavMenu
 } from './elements.js';
-
-import {GlobalStyles} from '../CircleButton/elements.js';
   
 function Navbar() {
   return (
-    <>
-    <GlobalStyles />
       <Nav>
         <Bars />
-        {/* <NavBtn>
-          <NavBtnLink to='/'>Nghi Nguyen</NavBtnLink>
-        </NavBtn> */}
           <NavLink textcolor= '#E4CC9C' fontSize= '32px' tabwidth= '200px' to='/'>
             nghi nguyen
           </NavLink>
@@ -34,7 +25,6 @@ function Navbar() {
           </NavLink>
         </NavMenu>
       </Nav>
-    </>
   );
 };
   
