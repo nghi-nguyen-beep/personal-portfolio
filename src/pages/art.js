@@ -7,6 +7,7 @@ import firstPin from '../assets/art/firstPin.png';
 import firstSketch from '../assets/art/firstSketch.png';
 import bunSketch from '../assets/art/bunSketch.png';
 import './includes/css/art.css';
+import vase from '../assets/art/vase.png';
 import PageAnimate from '../components/PageAnimate.js';
 
 function Art() {
@@ -22,6 +23,7 @@ function Art() {
             </div>
           </div>
           <div className= "art-gallery">  
+              <img src= {vase} alt= "vase" height= {'450px'} width= {'450px'} />
               <img src= {aoDai} alt= "aoDai" height= {'450px'} width= {'450px'} />
               <img src= {chair} alt= "chair" height= {'450px'} width= {'450px'} />
               <img src= {maki} alt= "maki" height= {'450px'} width= {'450px'} />        

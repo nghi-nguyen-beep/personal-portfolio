@@ -10,7 +10,7 @@ function About() {
               about me
             </div>
             <div className="about-description">
-              hulo, here are some facts about me below! 
+              hulo, here are some facts about me below.
             </div>
           </div>
         </div>
