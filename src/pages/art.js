@@ -1,15 +1,7 @@
-import aoDai from '../assets/art/aoDai.png';
-import chair from '../assets/art/chair.png';
-import maki from '../assets/art/maki.png';
-import pinterest from '../assets/art/pinterest.png';
-import fam from '../assets/art/fam.png';
-import firstPin from '../assets/art/firstPin.png';
-import firstSketch from '../assets/art/firstSketch.png';
-import bunSketch from '../assets/art/bunSketch.png';
 import './includes/css/art.css';
-import vase from '../assets/art/vase.png';
 import PageAnimate from '../components/PageAnimate.js';
-
+import artGalleryImages from '../components/ArtGalleryImages';
+import { motion } from "framer-motion";
 function Art() {
     return (
       <PageAnimate>
@@ -23,21 +15,13 @@ function Art() {
             </div>
           </div>
           <div className= "art-gallery">  
-              <img src= {vase} alt= "vase" height= {'450px'} width= {'450px'} />
-              <img src= {aoDai} alt= "aoDai" height= {'450px'} width= {'450px'} />
-              <img src= {chair} alt= "chair" height= {'450px'} width= {'450px'} />
-              <img src= {maki} alt= "maki" height= {'450px'} width= {'450px'} />        
-            
-              <img src= {pinterest} alt= "pinterest" height= {'450px'} width= {'450px'} />
-              <img src= {fam} alt= "fam" height= {'450px'} width= {'450px'} />
-              <img src= {firstPin} alt= "firstPin" height= {'450px'} width= {'450px'} />
-
-              <img src= {firstSketch} alt= "firstSketch" height= {'450px'} width= {'450px'} />
-              <img src= {bunSketch} alt= "bunSketch" height= {'450px'} width= {'450px'} />
+            {artGalleryImages.map((image, index) => (
+              <motion.div whileHover={{opacity: 0.5}} className= "art-piece-container" key= {image.id}>
+                <img src= {image.src} alt= {image.id} className= "art-image" />
+                <div className= "art-image-description"> {image.title} </div>
+              </motion.div>
+            ))}
           </div>
-          <>
-            scroll horizontally to see more images
-          </>
         </div>
         </PageAnimate>
       );
