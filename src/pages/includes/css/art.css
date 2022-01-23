@@ -26,11 +26,6 @@
     font-family: 'Ramaraja';
 }
 
-.art-image {
-    width: 27vw;
-    height: 27vw;
-}
-
 .art-gallery {
     width: 95vw;
     display: flex;
@@ -43,4 +38,37 @@
 
 .art-piece-container {
     margin-bottom: 3vw;
+    position: relative;
+}
+
+.art-image {
+    top: 0;
+    left: 0;
+    width: 27vw;
+    height: 27vw;
+    position: absolute;
+}
+
+.art-image-description {
+    top: 0;
+    left: 0;
+    width: 27vw;
+    height: 27vw;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.art-image:hover {
+    top: 0;
+    left: 0;
+    width: 27vw;
+    height: 27vw;
+    transition: 300ms;
+    background-color: rgb(245, 231, 223);
+    opacity: .25;
+    position: absolute;
 }
