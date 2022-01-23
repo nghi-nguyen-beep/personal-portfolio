@@ -7,8 +7,15 @@ import firstPin from '../assets/art/firstPin.png';
 import firstSketch from '../assets/art/firstSketch.png';
 import bunSketch from '../assets/art/bunSketch.png';
 import vase from '../assets/art/vase.png';
+import naomiOsaka from '../assets/art/naomiOsaka.png';
 
 const artGalleryImages = [
+    {
+        title: "小坂なおみ (Naomi Osaka)",
+        id: "naomiOsaka",
+        src: naomiOsaka,
+    },
+    
     {
         title: "Girl with Vase",
         id: "vase",

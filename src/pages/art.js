@@ -16,7 +16,7 @@ function Art() {
           </div>
           <div className= "art-gallery">  
             {artGalleryImages.map((image, index) => (
-              <motion.div whileHover={{opacity: 0.5}} className= "art-piece-container" key= {image.id}>
+              <motion.div whileHover={{opacity: 0.7}} className= "art-piece-container" key= {image.id}>
                 <img src= {image.src} alt= {image.id} className= "art-image" />
                 <div className= "art-image-description"> {image.title} </div>
               </motion.div>

@@ -3,11 +3,11 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    /* height: 91vh; */
-    /* align-content: center; */
+    align-content: flex-start;
 }
 
 .art-header {
+    height: 20vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -27,12 +27,11 @@
 }
 
 .art-image {
-    width: 25vw;
-    height: 25vw;
+    width: 27vw;
+    height: 27vw;
 }
 
 .art-gallery {
-    margin-top: 4vw ;
     width: 95vw;
     display: flex;
     flex-wrap: wrap;
@@ -43,5 +42,5 @@
 }
 
 .art-piece-container {
-    margin-bottom: 4vw;
+    margin-bottom: 3vw;
 }
