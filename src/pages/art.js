@@ -1,7 +1,6 @@
 import './includes/css/art.css';
 import PageAnimate from '../components/PageAnimate.js';
 import artGalleryImages from '../components/ArtGalleryImages';
-import { motion } from "framer-motion";
 function Art() {
     return (
       <PageAnimate>

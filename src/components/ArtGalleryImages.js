@@ -8,8 +8,22 @@ import firstSketch from '../assets/art/firstSketch.png';
 import bunSketch from '../assets/art/bunSketch.png';
 import vase from '../assets/art/vase.png';
 import naomiOsaka from '../assets/art/naomiOsaka.png';
+import bearDryInk from '../assets/art/bearDryInk.png';
+import catDryInk from '../assets/art/catDryInk.png';
 
 const artGalleryImages = [
+    {
+        title: "Spud",
+        id: "catDryInk",
+        src: catDryInk,
+    },
+
+    {
+        title: "Rilakkuma Sleeping",
+        id: "bearDryInk",
+        src: bearDryInk,
+    },
+
     {
         title: "小坂なおみ (Naomi Osaka)",
         id: "naomiOsaka",
