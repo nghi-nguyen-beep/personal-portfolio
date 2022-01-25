@@ -1,6 +1,8 @@
 import './includes/css/art.css';
 import PageAnimate from '../components/PageAnimate.js';
 import artGalleryImages from '../components/ArtGalleryImages';
+import ArtPiece from '../components/ArtPiece.js';
+
 function Art() {
     return (
       <PageAnimate>
@@ -15,10 +17,9 @@ function Art() {
           </div>
           <div className= "art-gallery">  
             {artGalleryImages.map((image, index) => (
-              <div className= "art-piece-container" key= {image.id}>
-                <div className= "art-image-description"> {image.title} </div>
-                <img src= {image.src} alt= {image.id} className= "art-image" />
-              </div>
+                <div key= {image.title}>
+                  <ArtPiece src={image.src} width={image.width} height={image.height} title={image.title} id={image.id} />
+                </div>
             ))}
           </div>
         </div>

@@ -33,9 +33,9 @@
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
-
+/* 
 .art-piece-container {
     margin-bottom: 3vw;
     position: relative;
@@ -70,5 +70,15 @@
     transition: 300ms;
     background-color: rgb(245, 231, 223);
     opacity: .25;
+    cursor: pointer;
     position: absolute;
-}
+} */
+
+/* .art-image:active {
+    width: 50vw;
+    height: 50vw;
+    transition: 300ms;
+    opacity: 1;
+    z-index: 1000;
+    position: absolute;
+} */
