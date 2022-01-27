@@ -5,8 +5,8 @@
 .project-piece-img-container {
     top: 0;
     left: 0;
-    width: 25vw;
-    height: 25vw;
+    width: 27vw;
+    height: 27vw;
     background-color: #eddec0;
     display: flex;
     align-content: center;
@@ -23,8 +23,8 @@
 .project-piece-img-description {
     top: 0;
     left: 0;
-    width: 25vw;
-    height: 25vw;
+    width: 27vw;
+    height: 27vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

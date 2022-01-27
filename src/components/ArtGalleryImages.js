@@ -10,8 +10,18 @@ import vase from '../assets/art/vase.png';
 import naomiOsaka from '../assets/art/naomiOsaka.png';
 import bearDryInk from '../assets/art/bearDryInk.png';
 import catDryInk from '../assets/art/catDryInk.png';
+import blooming from '../assets/art/blooming.png';
 
 const artGalleryImages = [
+    {
+        title: "blooming",
+        id: "blooming",
+        width: "27vw",
+        height: "27vw",
+        src: blooming,
+        
+    },
+
     {
         title: "Spud",
         id: "catDryInk",
