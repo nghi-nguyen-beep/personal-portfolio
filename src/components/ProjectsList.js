@@ -7,8 +7,8 @@ const ProjectsList = [
         title: "weatherly",
         id: "weatherly",
         src: Bear,
-        link: 'https://weatherly-2021.herokuapp.com/',
-        repo: 'https://github.com/weblab-class/nghi-nguyen-beep',
+        link: "https://weatherly-2021.herokuapp.com/",
+        repo: "https://github.com/weblab-class/nghi-nguyen-beep",
         tech: "React.js, MongoDB, node.js, Heroku",
     },
 

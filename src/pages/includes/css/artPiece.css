@@ -26,7 +26,7 @@
     left: 0;
     transition: 300ms;
     background-color: rgb(245, 231, 223);
-    opacity: .25;
+    opacity: .3;
     cursor: pointer;
     position: absolute;
 }
