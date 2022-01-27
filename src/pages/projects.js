@@ -2,7 +2,6 @@ import './includes/css/projects.css';
 import PageAnimate from '../components/PageAnimate';
 import ProjectsList from '../components/ProjectsList';
 import ProjectPiece from '../components/ProjectPiece';
-import { motion } from 'framer-motion';
 
 function Projects() {
     return (
