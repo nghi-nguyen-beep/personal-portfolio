@@ -25,7 +25,7 @@ class ArtPiece extends Component {
         if (this.state.imageExpanded) {
             this.setState({width: this.state.originalWidth, height: this.state.originalHeight, imageExpanded: false,  opacity: null, top: 0, left: 0});
         } else {
-            this.setState({width: newWidth, height: newHeight, imageExpanded: true,  opacity: 1, top: "-20px", left: 0});
+            this.setState({width: newWidth, height: newHeight, imageExpanded: true,  opacity: 1, top: 0, left: 0});
         }
     };
 

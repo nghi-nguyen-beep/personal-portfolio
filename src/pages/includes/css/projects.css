@@ -37,9 +37,6 @@
 }
 
 .projects-item {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;    */
     position: relative; 
 }
 
@@ -59,7 +56,6 @@
 .projects-img {
     width: 16vw;
     height: 16vw;
-    /* position: absolute; */
 }
 
 .projects-img-description {
@@ -84,7 +80,7 @@
     justify-content: center;
     align-content: center;
     transition: 300ms;
-    background-color: rgb(245, 231, 223);
+    background-color: rgb(240, 227, 218);
     opacity: .8;
     position: absolute;
 }
