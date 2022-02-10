@@ -10,7 +10,8 @@ class ProjectPiece extends Component {
             id: this.props.id,
             link: this.props.link,
             repo: this.props.repo,
-            tech: this.props.tech
+            tech: this.props.tech,
+            description: this.props.description,
         }
     }
 
@@ -23,9 +24,10 @@ class ProjectPiece extends Component {
                 <div className= "project-piece-img-description">
                     <div className= "project-piece-img-description-title">{this.state.title}</div>
                     <ul>
-                    <li>{this.state.tech}</li>
-                    <li><a href= {this.state.link} target= "_blank" rel="noopener noreferrer">website</a> </li>
-                    <li><a href= {this.state.repo} target= "_blank" rel="noopener noreferrer">source code</a> </li>
+                        <li>{this.state.tech}</li>
+                        <li><a href= {this.state.link} target= "_blank" rel="noopener noreferrer">website</a> </li>
+                        <li><a href= {this.state.repo} target= "_blank" rel="noopener noreferrer">source code</a> </li>
+                        <li>{this.state.description}</li>
                     </ul>
                 </div>
             </div>
