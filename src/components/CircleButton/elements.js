@@ -24,4 +24,8 @@ export const Button = styled.button`
       cursor: pointer;
       transform: translateY(-30px);
     }
+    @media screen and (max-width: 896px) {
+      transition: 200ms;
+      font-size: 1.25em;
+    }
 `;
