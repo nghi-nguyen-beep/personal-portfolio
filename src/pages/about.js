@@ -11,7 +11,7 @@ function About() {
               about me
             </div>
             <div className="about-description">
-              <div>hulo, here are some facts about me below.</div>
+              {/* <div>hulo, here are some facts about me below.</div> */}
               <div>Download my resume <a href={resume} download="NghiNguyenResume">here</a></div>
 
             </div>

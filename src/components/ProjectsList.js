@@ -1,8 +1,17 @@
 import Bear from '../assets/projects/Bear.png';
 import acc from '../assets/projects/acc.png';
 import pandji from '../assets/projects/pandji.png';
+import portfolio from '../assets/projects/portfolio.png';
 
 const ProjectsList = [
+    {
+        title: "portfolio",
+        id: "portfolio",
+        src: portfolio,
+        link: "https://nghi-nguyen.netlify.app/",
+        repo: "https://github.com/nghi-nguyen-beep/personal-portfolio",
+        tech: "React.js, framer-motion",
+    },
     {
         title: "weatherly",
         id: "weatherly",
@@ -26,8 +35,8 @@ const ProjectsList = [
         title: "pandji",
         id: "pandji",
         src: pandji,
-        link: '',
-        repo: '',
+        link: 'Coming Soon!',
+        repo: 'Coming Soon!',
         tech: 'python, HTML, CSS, Arduino, POSTAPI',
     },
 
