@@ -31,7 +31,7 @@ class ArtPiece extends Component {
 
     render() {
         return(
-            <div className= "art-piece-container" onClick={() => this.expandImage("27vw", "27vw")} style={{width: this.state.width, height: this.state.height, top: this.state.top, left: this.state.left}}>
+            <div className= "art-piece-container" style={{width: this.state.width, height: this.state.height, top: this.state.top, left: this.state.left}}>
                 <div className= "art-image-description" style={{width: this.state.width, height: this.state.height, top: this.state.top, left: this.state.left}}> {this.state.title} </div>
                 <img className= "art-image" src= {this.state.src} alt= {this.state.id} style={{width: this.state.width, height: this.state.height, opacity: this.state.opacity, top: this.state.top, left: this.state.left}}/>
             </div>

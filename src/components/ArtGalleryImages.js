@@ -11,23 +11,24 @@ import naomiOsaka from '../assets/art/naomiOsaka.png';
 import bearDryInk from '../assets/art/bearDryInk.png';
 import catDryInk from '../assets/art/catDryInk.png';
 import blooming from '../assets/art/blooming.png';
+import orangeFlowers from '../assets/art/orangeFlowers.png';
 
 const artGalleryImages = [
+    {
+        title: "Orange Flowers",
+        id: "orangeFlowers",
+        width: "27vw",
+        height: "27vw",
+        src: orangeFlowers,
+        
+    },
+    
     {
         title: "blooming",
         id: "blooming",
         width: "27vw",
         height: "27vw",
         src: blooming,
-        
-    },
-
-    {
-        title: "Spud",
-        id: "catDryInk",
-        width: "27vw",
-        height: "27vw",
-        src: catDryInk,
         
     },
 
