@@ -1,19 +1,38 @@
-import aoDai from '../assets/art/aoDai.png';
-import chair from '../assets/art/chair.png';
-import maki from '../assets/art/maki.png';
-import thinker from '../assets/art/pinterest.png';
-import fam from '../assets/art/fam.png';
-import firstPin from '../assets/art/firstPin.png';
-import firstSketch from '../assets/art/firstSketch.png';
-import bunSketch from '../assets/art/bunSketch.png';
-import vase from '../assets/art/vase.png';
-import naomiOsaka from '../assets/art/naomiOsaka.png';
-import bearDryInk from '../assets/art/bearDryInk.png';
-import catDryInk from '../assets/art/catDryInk.png';
-import blooming from '../assets/art/blooming.png';
-import orangeFlowers from '../assets/art/orangeFlowers.png';
+import aoDai from '../assets/art/aoDai-webp.webp';
+import chair from '../assets/art/chair-webp.webp';
+import maki from '../assets/art/maki-webp.webp';
+import thinker from '../assets/art/pinterest-webp.webp';
+import fam from '../assets/art/fam-webp.webp';
+import firstPin from '../assets/art/firstPin-webp.webp';
+import firstSketch from '../assets/art/firstSketch-webp.webp';
+import bunSketch from '../assets/art/bunSketch-webp.webp';
+import vase from '../assets/art/vase-webp.webp';
+import naomiOsaka from '../assets/art/naomiOsaka-webp.webp';
+import bearDryInk from '../assets/art/bearDryInk-webp.webp';
+import blooming from '../assets/art/blooming-webp.webp';
+import orangeFlowers from '../assets/art/orangeFlowers-webp.webp';
+import vogue from '../assets/art/vogue-webp.webp';
+import purpleSparkles from '../assets/art/purple-sparkles-webp.webp';
 
 const artGalleryImages = [
+    {
+        title: "Purple",
+        id: "purple sparks",
+        width: "27vw",
+        height: "27vw",
+        src: purpleSparkles,
+        
+    },
+
+    {
+        title: "vogue",
+        id: "vogue",
+        width: "27vw",
+        height: "27vw",
+        src: vogue,
+        
+    },
+
     {
         title: "Orange Flowers",
         id: "orangeFlowers",
