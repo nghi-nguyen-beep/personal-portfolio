@@ -13,8 +13,44 @@ import blooming from '../assets/art/blooming-webp.webp';
 import orangeFlowers from '../assets/art/orangeFlowers-webp.webp';
 import vogue from '../assets/art/vogue-webp.webp';
 import purpleSparkles from '../assets/art/purple-sparkles-webp.webp';
+import cat from '../assets/art/cat-webp.webp';
+import sisters from '../assets/art/sisters-webp.webp';
+import onigiri from '../assets/art/onigiri-webp.webp';
+import bangs from '../assets/art/bangs-webp.webp';
 
 const artGalleryImages = [
+    {
+        title: "bangs",
+        id: "bangs",
+        width: "27vw",
+        height: "27vw",
+        src: bangs,
+        
+    },
+    {
+        title: "onigiri",
+        id: "onigiri",
+        width: "27vw",
+        height: "27vw",
+        src: onigiri,
+        
+    },
+    {
+        title: "sisters",
+        id: "sisters",
+        width: "27vw",
+        height: "27vw",
+        src: sisters,
+        
+    },
+    {
+        title: "cat in overalls",
+        id: "cat in overalls",
+        width: "27vw",
+        height: "27vw",
+        src: cat,
+        
+    },
     {
         title: "Purple",
         id: "purple sparks",
