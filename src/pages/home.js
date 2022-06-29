@@ -8,8 +8,6 @@ function Home() {
         <div className= "home-main">
           <div className='home-row-one'>
             <CircleButton color= "#78A6EB" route="about"></CircleButton>
-          </div>
-          <div className='home-row-two'>
             <CircleButton color= "#DA7272" route="art"></CircleButton>
             <CircleButton color= "#F0D07D" route="projects"></CircleButton>
           </div>
