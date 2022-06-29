@@ -17,8 +17,58 @@ import cat from '../assets/art/cat-webp.webp';
 import sisters from '../assets/art/sisters-webp.webp';
 import onigiri from '../assets/art/onigiri-webp.webp';
 import bangs from '../assets/art/bangs-webp.webp';
+import princessPolly from '../assets/art/princess-polly.webp';
+import yuta from '../assets/art/yuta.webp';
+import aoDaiTwo from '../assets/art/ao-dai.webp';
+import retro from '../assets/art/retro.webp';
+import happyPink from '../assets/art/happy-pink.webp';
+import purpleFlower from '../assets/art/purple-flower.webp';
 
 const artGalleryImages = [
+    {
+        title: "purple flower",
+        id: "purple flower",
+        width: "27vw",
+        height: "27vw",
+        src: purpleFlower, 
+    },
+    {
+        title: "happy pink",
+        id: "happy pink",
+        width: "27vw",
+        height: "27vw",
+        src: happyPink, 
+    },
+    {
+        title: "retro",
+        id: "retro",
+        width: "27vw",
+        height: "27vw",
+        src: retro, 
+    },
+    {
+        title: "ao dai",
+        id: "ao dai",
+        width: "27vw",
+        height: "27vw",
+        src: aoDaiTwo, 
+    },
+    {
+        title: "yuta",
+        id: "yuta",
+        width: "27vw",
+        height: "27vw",
+        src: yuta,
+        
+    },
+    {
+        title: "princess polly",
+        id: "princess polly",
+        width: "27vw",
+        height: "27vw",
+        src: princessPolly,
+        
+    },
     {
         title: "bangs",
         id: "bangs",
