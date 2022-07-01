@@ -1,10 +1,10 @@
 .about-main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 91vh;
-    /* align-content: center; */
 }
 
 .about-header {
@@ -13,22 +13,28 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
 }
 
 .about-title {
     display: flex;
     justify-content: center;
-    /* align-content: center; */
     width: 100vw;
     font-size: 36px;
     font-family: 'Ramaraja';
 }
 
-.about-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    /* align-content: center; */
+.about-description {
+    text-align: center;
+    margin: 1.5em;
 }
+
+.about-profile-picture {
+    border-radius: 50%;
+    opacity: 100%;
+    transition: opacity 300ms ease-out;
+    margin-top: 1.5em;
+}
+
+/* .about-profile-picture:hover {
+    opacity: 30%;
+} */
