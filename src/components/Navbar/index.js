@@ -9,7 +9,7 @@ import {
 function Navbar() {
   return (
       <Nav>
-        <Bars />
+        {/* <Bars /> https://codesandbox.io/s/0hkkj?file=/src/components/Navbar.jsx */}
           <NavLink textcolor= '#E4CC9C' fontSize= '32px' tabwidth= '200px' to='/'>
             nghi nguyen
           </NavLink>

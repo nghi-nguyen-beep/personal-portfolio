@@ -23,8 +23,49 @@ import aoDaiTwo from '../assets/art/ao-dai.webp';
 import retro from '../assets/art/retro.webp';
 import happyPink from '../assets/art/happy-pink.webp';
 import purpleFlower from '../assets/art/purple-flower.webp';
+import lavenderHair from '../assets/art/lavender-hair.webp';
+import jumping from '../assets/art/jumping.webp';
+import cottageCore from '../assets/art/cottage-core.webp';
+import quyenCouch from '../assets/art/quyen-on-the-couch.webp';
+import quyenAoDai from '../assets/art/quyen-ao-dai.webp';
+
 
 const artGalleryImages = [
+    {
+        title: "quyen's wedding ao dai",
+        id: "quyen's wedding ao dai",
+        width: "27vw",
+        height: "27vw",
+        src: quyenAoDai, 
+    },
+    {
+        title: "cottage core but nghi",
+        id: "cottage core but nghi",
+        width: "27vw",
+        height: "27vw",
+        src: cottageCore, 
+    },
+    {
+        title: "jumping",
+        id: "jumping",
+        width: "27vw",
+        height: "27vw",
+        src: jumping, 
+    },
+    {
+        title: "lavender hair",
+        id: "lavender hair",
+        width: "27vw",
+        height: "27vw",
+        src: lavenderHair, 
+    },
+    {
+        title: "quyen on the couch",
+        id: "quyen on the couch",
+        width: "27vw",
+        height: "27vw",
+        src: quyenCouch, 
+    },
     {
         title: "purple flower",
         id: "purple flower",
