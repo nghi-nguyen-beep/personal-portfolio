@@ -13,6 +13,8 @@
 .art-image-description {
     top: 0;
     left: 0;
+    /* width: 3vw;
+    height: 3vh; */
     z-index: 1000;
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +29,5 @@
     transition: 300ms;
     background-color: rgb(245, 231, 223);
     opacity: .3;
-    /* cursor: pointer; */
     position: absolute;
 }

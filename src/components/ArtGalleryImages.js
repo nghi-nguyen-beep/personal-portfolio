@@ -28,9 +28,17 @@ import jumping from '../assets/art/jumping.webp';
 import cottageCore from '../assets/art/cottage-core.webp';
 import quyenCouch from '../assets/art/quyen-on-the-couch.webp';
 import quyenAoDai from '../assets/art/quyen-ao-dai.webp';
+import mushroomCap from '../assets/art/mushroomCap.webp';
 
 
 const artGalleryImages = [
+    {
+        title: "mushroom cap",
+        id: "mushroom",
+        width: "27vw",
+        height: "27vw",
+        src: mushroomCap, 
+    },
     {
         title: "quyen's wedding ao dai",
         id: "quyen's wedding ao dai",
