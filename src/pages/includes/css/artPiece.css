@@ -23,11 +23,11 @@
     align-content: center;
 }
 
-.art-image:hover {
+/* .art-image:hover {
     top: 0;
     left: 0;
     transition: 300ms;
     background-color: rgb(245, 231, 223);
     opacity: .3;
     position: absolute;
-}
+} */
