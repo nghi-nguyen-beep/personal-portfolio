@@ -10,17 +10,17 @@ function Navbar() {
   return (
       <Nav>
         {/* <Bars /> https://codesandbox.io/s/0hkkj?file=/src/components/Navbar.jsx */}
-          <NavLink textcolor= '#E4CC9C' fontSize= '32px' tabwidth= '200px' to='/'>
+          <NavLink textcolor= '#3E3D3A' fontSize= '32px' tabwidth= '200px' to='/'>
             nghi nguyen
           </NavLink>
         <NavMenu>
-          <NavLink color= '#78A6EB' to='/about'>
+          <NavLink color= '#0A2463' to='/about'>
             about
           </NavLink>
-          <NavLink color= '#DA7272' to='/art'>
+          <NavLink color= '#AD2E24' to='/art'>
             art
           </NavLink>
-          <NavLink color= '#F0D07D' to='/projects'>
+          <NavLink color= '#F0A926' to='/projects'>
             projects
           </NavLink>
         </NavMenu>

@@ -13,7 +13,7 @@ function About() {
             </div>
           </div>
           <div className="about-profile-picture">
-            <img className= "about-image" src= {profile} alt= "profile" style={{width: "20vw", height: "20vw", borderRadius: "50%"}}/>
+            <img className= "about-image" src= {profile} alt= "profile" style={{width: "17vw", height: "17vw", borderRadius: "50%"}}/>
           </div>
           <div className="about-description">
             <div>
