@@ -8,13 +8,13 @@
     left: 0;
     width: 27vw;
     height: 27vw;
-    background-color: #eddec0;
+    /* background-color: #eddec0; */
     display: flex;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: .5em;
+    /* padding: .5em; */
 }
 
 .project-piece-img {
@@ -35,8 +35,8 @@
     align-content: center;
     opacity: 0;
     position: absolute;
-    padding: .5em;
-    overflow: scroll;
+    /* padding: .5em; */
+    /* overflow: scroll; */
 }
 
 
@@ -47,7 +47,7 @@
     justify-content: center;
     align-content: center;
     transition: 300ms;
-    background-color: rgb(247, 232, 222);
-    opacity: .85;
+    background-color: #f7e0af;
+    opacity: .8;
     position: absolute;
 }

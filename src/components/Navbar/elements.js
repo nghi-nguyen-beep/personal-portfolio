@@ -4,13 +4,12 @@ import styled from 'styled-components';
   
 export const Nav = styled.nav`
   height: 85px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 12;
-  position: sticky; 
-  top: 0;
-  background-color: #F6F3E8;
+  position: fixed; 
+  top: -2.5em;
+  left: calc(50vw - 210px);
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
@@ -18,25 +17,27 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: ${props => props.textcolor ? props.textcolor : 'white'};
   background-color: ${props => props.color ? props.color : 'none'};
-  font-family: Ramaraja;
   text-align: center;
-  font-size: ${props => props.fontSize ? props.fontSize : '24px'};
+  font-size: ${props => props.fontSize ? props.fontSize : '1.35em'};
   width: ${props => props.tabwidth ? props.tabwidth : '90px'};
   display: flex;
   align-items: flex-end;
   justify-content: center;
   text-decoration: none;
-  padding: 0 1rem;
-  height: 44px;
+  padding: 0em 0.7em 1em 0.7em;
+  border-radius: 0 0 5rem 5rem;
+  height: 5em;
   cursor: pointer;
   transition: transform 250ms;
   &:hover {
     cursor: pointer;
-    transform: translateY(-7px);
+    transform: translateY(1em);
+    filter: brightness(120%);
   }
   &.active {
     color: white;
-    filter: brightness(80%);
+    filter: brightness(120%);
+    transform: translateY(1em);
   }
 `;
   
