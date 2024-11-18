@@ -1,33 +1,9 @@
 
 .art-piece-container {
+    height: 30vw;
+    width: 30vw;
     margin-bottom: 3vw;
-    position: relative;
-}
-
-.art-image {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.art-image-description {
-    top: 0;
-    left: 0;
-    /* width: 3vw;
-    height: 3vh; */
-    z-index: 1000;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
-    align-content: center;
-}
-
-/* .art-image:hover {
-    top: 0;
-    left: 0;
-    transition: 300ms;
-    background-color: rgb(245, 231, 223);
-    opacity: .3;
-    position: absolute;
-} */
+    /* position: relative; */
+};

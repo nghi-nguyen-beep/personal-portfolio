@@ -12,7 +12,7 @@ function Art() {
               art
             </div>
             <div className="art-description">
-              some fun digital art that I started over winter break in order to learn how to draw body proportions. 
+              Nghi's unofficial and continuous journey to prevent the decline of her cognitive right side.  
             </div>
           </div>
           <div className= "art-gallery">  

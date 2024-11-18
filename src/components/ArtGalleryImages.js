@@ -6,13 +6,9 @@ import fam from '../assets/art/fam-webp.webp';
 import firstPin from '../assets/art/firstPin-webp.webp';
 import firstSketch from '../assets/art/firstSketch-webp.webp';
 import bunSketch from '../assets/art/bunSketch-webp.webp';
-import vase from '../assets/art/vase-webp.webp';
 import naomiOsaka from '../assets/art/naomiOsaka-webp.webp';
 import bearDryInk from '../assets/art/bearDryInk-webp.webp';
-import blooming from '../assets/art/blooming-webp.webp';
-import orangeFlowers from '../assets/art/orangeFlowers-webp.webp';
 import vogue from '../assets/art/vogue-webp.webp';
-import purpleSparkles from '../assets/art/purple-sparkles-webp.webp';
 import cat from '../assets/art/cat-webp.webp';
 import sisters from '../assets/art/sisters-webp.webp';
 import onigiri from '../assets/art/onigiri-webp.webp';
@@ -23,36 +19,21 @@ import aoDaiTwo from '../assets/art/ao-dai.webp';
 import retro from '../assets/art/retro.webp';
 import happyPink from '../assets/art/happy-pink.webp';
 import purpleFlower from '../assets/art/purple-flower.webp';
-import lavenderHair from '../assets/art/lavender-hair.webp';
 import jumping from '../assets/art/jumping.webp';
 import cottageCore from '../assets/art/cottage-core.webp';
 import quyenCouch from '../assets/art/quyen-on-the-couch.webp';
 import quyenAoDai from '../assets/art/quyen-ao-dai.webp';
-import mushroomCap from '../assets/art/mushroomCap.webp';
-import disney from '../assets/art/disney.webp';
-import leaves from '../assets/art/leaves.webp';
 import sun from '../assets/art/sun.webp';
-import miffy from '../assets/art/miffy-x-vietnam.webp';
 import cowboy from '../assets/art/cowboy.webp';
 import chair2 from '../assets/art/chair.webp';
-import bread from '../assets/art/bread.webp';
-
-
+import calendar from '../assets/art/calendar-2024.webp';
 
 const artGalleryImages = [
     {
-        title: "miffy",
-        id: "miffy",
-        width: "30vw",
+        title: "calendar",
+        id: "calendar",
         height: "30vw",
-        src: miffy, 
-    },  
-    {
-        title: "bread",
-        id: "bread",
-        width: "30vw",
-        height: "30vw",
-        src: bread, 
+        src: calendar, 
     },  
     {
         title: "sun",
@@ -76,27 +57,6 @@ const artGalleryImages = [
         src: chair2, 
     },   
     {
-        title: "leaves",
-        id: "leaves",
-        width: "30vw",
-        height: "30vw",
-        src: leaves, 
-    },
-    {
-        title: "disney",
-        id: "disney",
-        width: "30vw",
-        height: "30vw",
-        src: disney, 
-    },
-    {
-        title: "mushroom cap",
-        id: "mushroom",
-        width: "30vw",
-        height: "30vw",
-        src: mushroomCap, 
-    },
-    {
         title: "quyen's wedding ao dai",
         id: "quyen's wedding ao dai",
         width: "30vw",
@@ -116,13 +76,6 @@ const artGalleryImages = [
         width: "30vw",
         height: "30vw",
         src: jumping, 
-    },
-    {
-        title: "lavender hair",
-        id: "lavender hair",
-        width: "30vw",
-        height: "30vw",
-        src: lavenderHair, 
     },
     {
         title: "quyen on the couch",
@@ -208,15 +161,6 @@ const artGalleryImages = [
         
     },
     {
-        title: "Purple",
-        id: "purple sparks",
-        width: "30vw",
-        height: "30vw",
-        src: purpleSparkles,
-        
-    },
-
-    {
         title: "vogue",
         id: "vogue",
         width: "30vw",
@@ -224,25 +168,6 @@ const artGalleryImages = [
         src: vogue,
         
     },
-
-    {
-        title: "Orange Flowers",
-        id: "orangeFlowers",
-        width: "30vw",
-        height: "30vw",
-        src: orangeFlowers,
-        
-    },
-    
-    {
-        title: "blooming",
-        id: "blooming",
-        width: "30vw",
-        height: "30vw",
-        src: blooming,
-        
-    },
-
     {
         title: "Rilakkuma Sleeping",
         id: "bearDryInk",
@@ -257,14 +182,6 @@ const artGalleryImages = [
         width: "30vw",
         height: "30vw",
         src: naomiOsaka,
-    },
-    
-    {
-        title: "Girl with Vase",
-        id: "vase",
-        width: "30vw",
-        height: "30vw",
-        src: vase,
     },
 
     {

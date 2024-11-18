@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   align-items: center;
   z-index: 12;
   position: fixed; 
-  top: -2.5em;
+  top: -3em;
   left: calc(50vw - 210px);
   /* Third Nav */
   /* justify-content: flex-start; */
@@ -31,13 +31,13 @@ export const NavLink = styled(Link)`
   transition: transform 250ms;
   &:hover {
     cursor: pointer;
-    transform: translateY(1em);
+    transform: translateY(1.2em);
     filter: brightness(120%);
   }
   &.active {
     color: white;
     filter: brightness(120%);
-    transform: translateY(1em);
+    transform: translateY(1.2em);
   }
 `;
   

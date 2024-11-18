@@ -32,7 +32,7 @@ class ArtPiece extends Component {
     render() {
         return(
             <div className= "art-piece-container" style={{width: this.state.width, height: this.state.height, top: this.state.top, left: this.state.left}}>
-                <div className= "art-image-description" style={{width: this.state.width / 5, height: this.state.height / 5, top: this.state.top, left: this.state.left}}> {this.state.title} </div>
+                {/* <div className= "art-image-description" style={{width: this.state.width / 5, height: this.state.height / 5, top: this.state.top, left: this.state.left}}> {this.state.title} </div> */}
                 <img className= "art-image" src= {this.state.src} alt= {this.state.id} style={{width: this.state.width, height: this.state.height, opacity: this.state.opacity, top: this.state.top, left: this.state.left}}/>
             </div>
         )
