@@ -23,7 +23,6 @@ import jumping from '../assets/art/jumping.webp';
 import cottageCore from '../assets/art/cottage-core.webp';
 import quyenCouch from '../assets/art/quyen-on-the-couch.webp';
 import quyenAoDai from '../assets/art/quyen-ao-dai.webp';
-import sun from '../assets/art/sun.webp';
 import cowboy from '../assets/art/cowboy.webp';
 import chair2 from '../assets/art/chair.webp';
 import calendar from '../assets/art/calendar-2024.webp';
@@ -34,13 +33,13 @@ const artGalleryImages = [
         id: "calendar",
         height: "30vw",
         src: calendar, 
-    },  
+    },
     {
-        title: "sun",
-        id: "sun",
+        title: "quyen's wedding ao dai",
+        id: "quyen's wedding ao dai",
         width: "30vw",
         height: "30vw",
-        src: sun, 
+        src: quyenAoDai,
     },  
     {
         title: "cowboy",
@@ -56,13 +55,6 @@ const artGalleryImages = [
         height: "30vw",
         src: chair2, 
     },   
-    {
-        title: "quyen's wedding ao dai",
-        id: "quyen's wedding ao dai",
-        width: "30vw",
-        height: "30vw",
-        src: quyenAoDai, 
-    },
     {
         title: "cottage core but nghi",
         id: "cottage core but nghi",

@@ -1,13 +1,16 @@
 .project-piece-item {
-    margin-bottom: 3vw;
+    min-width: 0;
     position: relative; 
 }
 
 .project-piece-img-container {
     top: 0;
     left: 0;
-    width: 27vw;
-    height: 27vw;
+    width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    position: relative;
+    overflow: hidden;
     /* background-color: #eddec0; */
     display: flex;
     align-content: center;
@@ -17,17 +20,139 @@
     /* padding: .5em; */
 }
 
+.project-piece-item-video-preview .project-piece-img-container {
+    height: auto;
+    aspect-ratio: 1.3;
+}
+
 .project-piece-img {
-    width: 16vw;
-    height: 16vw;
+    width: 64%;
+    height: auto;
+}
+
+.project-website-preview {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.project-website-preview::after {
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 55%);
+    content: "";
+}
+
+.project-website-preview-has-motion::after {
+    background: transparent;
+}
+
+.project-website-preview > img,
+.project-website-preview > video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-website-preview-compact > video {
+    object-fit: cover;
+}
+
+.project-website-preview-content {
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 70%);
+    transition: opacity 180ms ease;
+}
+
+.project-website-preview-has-motion .project-website-preview-content {
+    display: none;
+}
+
+.project-website-preview-hover-details {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem 4rem;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background-color: rgba(174, 201, 221, 0.9);
+    color: #2c1804;
+    opacity: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    transition: opacity 180ms ease;
+}
+
+.project-website-preview-hover-details .project-piece-img-description-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.project-website-preview-hover-details ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.project-website-preview-hover-details a {
+    color: inherit;
+}
+
+.project-piece-img-container:hover .project-website-preview-content,
+.project-piece-img-container:focus-within .project-website-preview-content {
+    opacity: 0;
+}
+
+.project-piece-img-container:hover .project-website-preview-hover-details,
+.project-piece-img-container:focus-within .project-website-preview-hover-details {
+    opacity: 0.95;
+}
+
+.project-website-preview-content h3 {
+    margin: 0 0 0.6em;
+    font-size: clamp(0.8rem, 2vw, 2rem);
+}
+
+.project-website-preview-content p {
+    margin: 0.5em 0;
+    font-size: clamp(0.65rem, 1.2vw, 1.2rem);
+}
+
+.project-website-preview-content small {
+    font-size: clamp(0.55rem, 0.9vw, 0.95rem);
+}
+
+.project-website-preview-compact .project-website-preview-content h3 {
+    font-size: clamp(0.8rem, 1.4vw, 1.2rem);
+}
+
+.project-website-preview-compact .project-website-preview-content p {
+    font-size: clamp(0.6rem, 1vw, 0.9rem);
+}
+
+.project-website-preview-compact .project-website-preview-content small {
+    font-size: clamp(0.5rem, 0.75vw, 0.7rem);
 }
 
 .project-piece-img-description {
     top: 0;
     left: 0;
-    width: 27vw !important;
-    height: 27vw !important; 
-    font-size: .9em;
+    width: 100%;
+    height: 100%;
+    font-size: .8em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -40,14 +165,35 @@
 }
 
 
-.project-piece-img-description:hover {
+.project-piece-item:hover .project-piece-img-description,
+.project-piece-item:focus-within .project-piece-img-description {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     transition: 300ms;
-    background-color: #f7e0af;
-    opacity: .8;
+    background-color: rgba(169, 194, 213, 0.9);
+    color: #2c1804;
+    opacity: 1;
     position: absolute;
+}
+
+.project-demo-launch {
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 2;
+    display: inline-block;
+    border: 0;
+    border-radius: 999px;
+    padding: 0.65rem 1rem;
+    background: #4a3405;
+    color: #fff;
+    font: inherit;
+    text-decoration: none;
+}
+
+.project-demo-launch:focus-visible {
+    outline: 3px solid #a34f00;
+    outline-offset: 3px;
 }

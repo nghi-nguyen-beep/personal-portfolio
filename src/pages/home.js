@@ -1,6 +1,5 @@
 import './includes/css/home.css';
 import './includes/css/about.css';
-import CircleButton from '../components/CircleButton';
 import PageAnimate from '../components/PageAnimate';
 import profile from '../assets/about/nghi.webp';
 
