@@ -1,11 +1,10 @@
 .projects-main {
-    margin: 5rem;
+    padding: 5rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: flex-start;
-    padding: 80px 1.5rem 2rem;
     color: #4a3405;
     width: 100%;
     max-width: 100%;
