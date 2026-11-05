@@ -1,10 +1,8 @@
 .projects-main {
-    padding: 5rem;
+    padding: 80px 1.5rem 2rem;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
     color: #4a3405;
     width: 100%;
     max-width: 100%;
@@ -12,14 +10,17 @@
 }
 
 .projects-header {
+    width: 100%;
+    max-width: 1200px;
     min-height: 20vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     margin-top: 30px;
+    text-align: center;
 }
 
 .projects-title {
@@ -28,12 +29,14 @@
     align-content: center;
     width: 100%;
     font-size: clamp(1.75rem, 5vw, 2.25rem);
+    text-align: center;
 }
 
 .projects-gallery {
     width: 100%;
     max-width: 1200px;
     margin-inline: auto;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: clamp(1rem, 3vw, 2rem);
