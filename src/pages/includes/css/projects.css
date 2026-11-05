@@ -10,31 +10,28 @@
 }
 
 .projects-header {
-    width: min(100%, 1200px);
-    align-self: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
     min-height: 20vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
     align-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .projects-title {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     width: 100%;
     font-size: clamp(1.75rem, 5vw, 2.25rem);
+    text-align: center;
     /* font-family: 'Ramaraja'; */
 }
 
 .projects-gallery {
-    width: min(100%, 1200px);
-    max-width: 100%;
-    align-self: center;
+    width: 100%;
+    max-width: 1200px;
     margin-inline: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
