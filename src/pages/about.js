@@ -22,7 +22,7 @@ function About() {
               </ul>
             </div>
             <br></br>
-            <div><p>Download my resume (last updated Nov 5, 2026) <a href={resume} download="Nghi_Nguyen_Resume">here</a></p></div>
+            <div><p>Download my resume <b><a href={resume} download="Nghi_Nguyen_Resume">here</a></b> (last updated Nov 5, 2026)</p> </div>
           </div>
         </div>
       </PageAnimate>

@@ -22,33 +22,33 @@ function Fixations() {
           </div>
           <div className="fixations-new-york">
             <h3>Notable entities in NYC</h3>
-            <p>Places:</p>
+            <h4>Places:</h4>
               <ul>
-                <li>NYPL Bryant Park</li>
-                <li>Grand Central Terminal</li>
-                <li>Morgan Library and Museum</li>
-                <li>Hunter's Point Park</li>
-                <li>WNYC Transmitter Park</li>
-                <li>Astoria Park</li>
-                <li>Jane's Carousel / Brooklyn Bridge Park Area</li>
-                <li>myplasticheart</li>
+                <li><b>NYPL Bryant Park</b></li>
+                <li><b>Grand Central Terminal</b></li>
+                <li><b>Morgan Library and Museum</b></li>
+                <li><b>Hunter's Point Park</b></li>
+                <li><b>WNYC Transmitter Park</b></li>
+                <li><b>Astoria Park</b></li>
+                <li><b>Jane's Carousel / Brooklyn Bridge Park Area</b></li>
+                <li><b>myplasticheart</b></li>
               </ul>
-            <p>Meals:</p>
+            <h4>Meals:</h4>
               <ul>
-                <li>Yemenat -- Lamb Haneeth and Rashoosh</li>
-                <li>Olle -- Byeong-uh Jorim</li>
-                <li>Izakaya Seasun -- Matcha Makgeolli</li>
-                <li>Masa Madre -- Weekend Tamales</li>
-                <li>Omusubi Gonbei -- Any onigiri</li>
+                <li><b>Yemenat</b> ☆ Lamb Haneeth and Rashoosh</li>
+                <li><b>Olle</b> ☆ Byeong-uh Jorim</li>
+                <li><b>Izakaya Seasun</b> ☆ Matcha Makgeolli</li>
+                <li><b>Masa Madre</b> ☆ Weekend Tamales</li>
+                <li><b>Omusubi Gonbei</b> ☆ Any onigiri</li>
               </ul>
 
-            <p>Sweets:</p>
+            <h4>Sweets:</h4>
               <ul>
-                <li>Hana's Gelateria -- Jasmine Gelato</li>
-                <li>Mixue -- $1.39 Ice Cream</li>
-                <li>Auntea Jenny -- Egg Tarts</li>
-                <li>Mimi's Frozen Yogurt -- Anything with the pistachio drizzle</li>
-                <li>Uzuki -- Kakegori Ice Cream</li>
+                <li><b>Hana's Gelateria</b> ☆ Jasmine Gelato</li>
+                <li><b>Mixue</b> ☆ $1.39 Ice Cream</li>
+                <li><b>Auntea Jenny</b> ☆ Egg Tarts</li>
+                <li><b>Mimi's Frozen Yogurt</b> ☆ Anything with the pistachio drizzle</li>
+                <li><b>Uzuki</b> ☆ Kakegori Ice Cream</li>
               </ul>
         </div>
       </div>
