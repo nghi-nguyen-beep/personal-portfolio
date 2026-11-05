@@ -14,8 +14,10 @@
     max-width: 1200px;
     margin-inline: auto;
     min-height: 20vh;
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     align-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -23,6 +25,9 @@
 }
 
 .projects-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     font-size: clamp(1.75rem, 5vw, 2.25rem);
     text-align: center;
