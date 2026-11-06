@@ -5,7 +5,7 @@ import {
   Bars,
   NavMenu
 } from './elements.js';
-import { ReactComponent as Sparkles } from '../../assets/projects/sparkles.svg';
+import { ReactComponent as HumanArms } from '../../assets/projects/human-arms.svg';
   
 function Navbar() {
   return (
@@ -15,20 +15,20 @@ function Navbar() {
             nghi nguyen
           </NavLink> */}
         <NavMenu>
-          <NavLink color= '#0e68bd' to='/about'>
-            <Sparkles aria-hidden="true" focusable="false" />
+          <NavLink color= '#bd3c81' to='/about'>
+            <HumanArms aria-hidden="true" focusable="false" />
             <span>about</span>
           </NavLink>
           <NavLink color= '#0e68bd' to='/art'>
-            <Sparkles aria-hidden="true" focusable="false" />
+            <HumanArms aria-hidden="true" focusable="false" />
             <span>art</span>
           </NavLink>
-          <NavLink color= '#0e68bd' to='/projects'>
-            <Sparkles aria-hidden="true" focusable="false" />
+          <NavLink color= '#51206b' to='/projects'>
+            <HumanArms aria-hidden="true" focusable="false" />
             <span>projects</span>
           </NavLink>
-          <NavLink color= '#0e68bd' to='/fixations'>
-            <Sparkles aria-hidden="true" focusable="false" />
+          <NavLink color= '#d65911' to='/fixations'>
+            <HumanArms aria-hidden="true" focusable="false" />
             <span>fixations</span>
           </NavLink>
         </NavMenu>

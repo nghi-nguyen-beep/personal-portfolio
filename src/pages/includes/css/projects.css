@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     justify-items: center;
-    color: #4a3405;
 }
 
 .projects-header {
@@ -21,11 +20,13 @@
     display: block;
     font-size: clamp(1.75rem, 5vw, 2.25rem);
     text-align: center;
+    color: #3256af;
 }
 
 .projects-description {
     width: 100%;
     text-align: center;
+    color: #421919;
 }
 
 .projects-gallery {

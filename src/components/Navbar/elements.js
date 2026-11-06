@@ -37,6 +37,15 @@ export const NavLink = styled(Link)`
     width: clamp(2.5rem, 5vw, 4rem);
     height: clamp(2.5rem, 5vw, 4rem);
   }
+  & > svg .arms-up {
+    display: none;
+  }
+  &.active > svg .arms-down {
+    display: none;
+  }
+  &.active > svg .arms-up {
+    display: initial;
+  }
   & > span {
     color: inherit;
   }

@@ -5,7 +5,6 @@
   padding: 80px 1rem 2rem;
   min-height: 100vh;
   width: 100%;
-  color: #432b14;
 }
 
 .fixations-header {
@@ -22,11 +21,13 @@
 
 .fixations-title {
   font-size: clamp(1.75rem, 5vw, 2.25rem);
+  color: #3256af;
 }
 
 .fixations-description {
   margin-top: 0.5rem;
   overflow-wrap: anywhere;
+  color: #421919;
 }
 
 .fixations-content {
@@ -36,6 +37,7 @@
   width: min(100%, 65ch);
   margin-inline: auto;
   text-align: left;
+  color: #421919;
 }
 
 .fixations-content h3 {

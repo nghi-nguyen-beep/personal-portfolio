@@ -38,7 +38,7 @@ function Fixations() {
                 <li><b>Yemenat</b> ☆ Lamb Haneeth and Rashoosh</li>
                 <li><b>Olle</b> ☆ Byeong-uh Jorim</li>
                 <li><b>Izakaya Seasun</b> ☆ Matcha Makgeolli</li>
-                <li><b>Masa Madre</b> ☆ Weekend Tamales</li>
+                <li><b>Masa Madre</b> ☆ Weekend tamales</li>
                 <li><b>Omusubi Gonbei</b> ☆ Any onigiri</li>
               </ul>
 
