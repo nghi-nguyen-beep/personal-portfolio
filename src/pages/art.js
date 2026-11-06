@@ -13,7 +13,7 @@ function Art() {
               <b>art</b>
             </div>
             <div className="art-description">
-              My unofficial and non-linear journey to prevent the decline of her cognitive right side.  
+              An wiggly wobbly, creative journey I more often than not go on to keep my cognitive right side active.  
             </div>
           </div>
           <div className="art-content">
