@@ -6,7 +6,7 @@ function Fixations() {
     <PageAnimate>
       <div className="fixations-main">
         <div className="fixations-header">
-          <div className="fixations-title"><b>fixations</b></div>
+          <div className="fixations-title"><b>Fixations</b></div>
           <div className="fixations-description">
             Conglomerate of things that I find interesting, and things that I want to remember.
           </div>
@@ -26,14 +26,14 @@ function Fixations() {
             <h3>Notable entities in NYC</h3>
             <h4>Places:</h4>
               <ul>
-                <li><b>NYPL Bryant Park</b></li>
-                <li><b>Grand Central Terminal</b></li>
-                <li><b>Morgan Library and Museum</b></li>
-                <li><b>Hunter's Point Park</b></li>
-                <li><b>WNYC Transmitter Park</b></li>
-                <li><b>Astoria Park</b></li>
-                <li><b>Jane's Carousel / Brooklyn Bridge Park Area</b></li>
-                <li><b>myplasticheart</b></li>
+                <li>NYPL Bryant Park</li>
+                <li>Grand Central Terminal</li>
+                <li>Morgan Library and Museum</li>
+                <li>Hunter's Point Park</li>
+                <li>WNYC Transmitter Park</li>
+                <li>Astoria Park</li>
+                <li>Jane's Carousel / Brooklyn Bridge Park Area</li>
+                <li>myplasticheart</li>
               </ul>
             <h4>Meals:</h4>
               <ul>

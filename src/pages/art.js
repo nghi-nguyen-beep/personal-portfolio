@@ -10,10 +10,10 @@ function Art() {
         <div className = "art-main">
           <div className= "art-header">
             <div className="art-title">
-              <b>art</b>
+              <b>Art</b>
             </div>
             <div className="art-description">
-              An wiggly wobbly, creative journey I more often than not go on to keep my cognitive right side active.  
+              A wiggly wobbly, creative journey I frequent to keep my cognitive right side active.  
             </div>
           </div>
           <div className="art-content">

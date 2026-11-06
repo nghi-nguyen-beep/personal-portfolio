@@ -9,7 +9,7 @@ function Projects() {
         <div className = "projects-main">
           <div className= "projects-header">
             <div className="projects-title">
-              <b>projects</b>
+              <b>Projects</b>
             </div>
             <div className="projects-description">
               Some projects that I've done over the years. 

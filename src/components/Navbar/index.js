@@ -17,19 +17,19 @@ function Navbar() {
         <NavMenu>
           <NavLink color= '#bd3c81' to='/about'>
             <HumanArms aria-hidden="true" focusable="false" />
-            <span>about</span>
+            <span>About</span>
           </NavLink>
           <NavLink color= '#51206b' to='/projects'>
             <HumanArms aria-hidden="true" focusable="false" />
-            <span>projects</span>
+            <span>Projects</span>
           </NavLink>
           <NavLink color= '#203aae' to='/art'>
             <HumanArms aria-hidden="true" focusable="false" />
-            <span>art</span>
+            <span>Art</span>
           </NavLink>
           <NavLink color= '#cc5009' to='/fixations'>
             <HumanArms aria-hidden="true" focusable="false" />
-            <span>fixations</span>
+            <span>Fixations</span>
           </NavLink>
         </NavMenu>
       </Nav>

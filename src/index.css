@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Tiny5 Duo';
+  src: url('./pages/includes/fonts/Tiny5_Duo/Tiny5Duo-VariableFont_BLED,JITT,ROND,wdth,wght.ttf')
+    format('truetype');
+  font-style: normal;
+  font-weight: 77 380;
+}
+
+.about-title,
+.projects-title,
+.art-title,
+.art-section-title,
+.fixations-title {
+  font-family: 'Tiny5 Duo', sans-serif;
+}
+
 html,
 body,
 #root {
