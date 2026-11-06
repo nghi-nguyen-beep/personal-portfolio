@@ -9,10 +9,10 @@ function Projects() {
         <div className = "projects-main">
           <div className= "projects-header">
             <div className="projects-title">
-              projects
+              <b>projects</b>
             </div>
             <div className="projects-description">
-              some projects that I've done over the years. 
+              Some projects that I've done over the years. 
             </div>
           </div>
           <div className= "projects-gallery">

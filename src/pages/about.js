@@ -8,7 +8,7 @@ function About() {
         <div className = "about-main">
           <div className= "about-header">
             <div className="about-title">
-              about me
+              <b>nghi nguyen </b>
             </div>
           </div>
           <div className="about-description">

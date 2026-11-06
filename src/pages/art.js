@@ -9,10 +9,10 @@ function Art() {
         <div className = "art-main">
           <div className= "art-header">
             <div className="art-title">
-              art
+              <b>art</b>
             </div>
             <div className="art-description">
-              Nghi's unofficial and continuous journey to prevent the decline of her cognitive right side.  
+              My unofficial and non-linear journey to prevent the decline of her cognitive right side.  
             </div>
           </div>
           <div className= "art-gallery">  

@@ -6,7 +6,7 @@ function Fixations() {
     <PageAnimate>
       <div className="fixations-main">
         <div className="fixations-header">
-          <div className="fixations-title">fixations</div>
+          <div className="fixations-title"><b>fixations</b></div>
           <div className="fixations-description">
             Conglomerate of things that I find interesting, and things that I want to remember.
           </div>
