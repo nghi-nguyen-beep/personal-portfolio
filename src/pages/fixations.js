@@ -18,6 +18,8 @@ function Fixations() {
                 <li>"Security takes many forms. There is the security of knowing one has a statistically smaller chance of getting shot with an arrow. And then there’s the security of knowing that there are people in the world who will care deeply if one is."- <a href="https://www.goodreads.com/en/book/show/56269264-the-dawn-of-everything" target="_blank" rel="noopener noreferrer">David Graeber and David Wengrow, The Dawn of Everything: A New History of Humanity</a> </li>
                 <br></br>
                 <li>"Empathy and compassion are evolved states of being. They require the mental capacity to step past our most primal urges of being fearful of the unknown." - <a href="https://straffordcountydemocraticcommittee.org/how-to-spot-an-idiot-jb-pritzkers-commencement-speech/" target="_blank" rel="noopener noreferrer">How to Spot an Idiot: JB Pritzker's Commencement Speech</a></li>
+                <br></br>
+                <li>"The world is very different now. For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life." - <a href="https://www.archives.gov/milestone-documents/president-john-f-kennedys-inaugural-address" target="_blank" rel="noopener noreferrer">John F. Kennedy's Inaugural Address</a></li>
               </ul>
           </div>
           <div className="fixations-new-york">
