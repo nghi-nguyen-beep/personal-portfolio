@@ -19,15 +19,15 @@ function Navbar() {
             <HumanArms aria-hidden="true" focusable="false" />
             <span>about</span>
           </NavLink>
-          <NavLink color= '#0e68bd' to='/art'>
-            <HumanArms aria-hidden="true" focusable="false" />
-            <span>art</span>
-          </NavLink>
           <NavLink color= '#51206b' to='/projects'>
             <HumanArms aria-hidden="true" focusable="false" />
             <span>projects</span>
           </NavLink>
-          <NavLink color= '#d65911' to='/fixations'>
+          <NavLink color= '#203aae' to='/art'>
+            <HumanArms aria-hidden="true" focusable="false" />
+            <span>art</span>
+          </NavLink>
+          <NavLink color= '#cc5009' to='/fixations'>
             <HumanArms aria-hidden="true" focusable="false" />
             <span>fixations</span>
           </NavLink>

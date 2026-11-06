@@ -1,12 +1,10 @@
 .art-main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     padding: 80px 1.5rem 2rem;
-    width: 100%;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -34,21 +32,166 @@
     color: #421919;
 }
 
-.art-gallery {
+.art-content {
     width: min(100%, 1200px);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
-    /* overflow: scroll; */
+    flex-direction: column;
+    gap: 3rem;
 }
 
-.art-gallery > div {
-    max-width: 100%;
+.art-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    outline: none;
 }
 
-.art-image {
+.art-gallery-section {
+    width: 100%;
+}
+
+.art-section-title {
+    margin: 0 0 1.25rem;
+    color: #3256af;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    text-align: center;
+}
+
+.art-gallery:focus-visible {
+    outline: 2px solid #3256af;
+    outline-offset: 5px;
+    /* border-radius: 0.75rem; */
+}
+
+.art-carousel-stage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: clamp(20rem, 62vh, 42rem);
+    padding: 1.5rem 4.5rem;
+    overflow: hidden;
+    /* border: 1px solid rgb(50 86 175 / 18%); */
+    /* border-radius: 0.75rem; */
+    /* background: rgb(255 255 255 / 10%); */
+}
+
+.art-carousel-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+}
+
+.art-carousel-image {
+    display: block;
+    width: 100%;
+    height: 100%;
     max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
+}
+
+.art-carousel-control {
+    position: absolute;
+    top: 50%;
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    place-items: center;
+    transform: translateY(-50%);
+    border: 1px solid rgb(50 86 175 / 24%);
+    border-radius: 50%;
+    background: #fff7f7;
+    color: #3256af;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.art-carousel-control:hover {
+    transform: translateY(-50%) scale(1.06);
+    background: #ffffff;
+}
+
+.art-carousel-control:focus-visible {
+    outline: 2px solid #3256af;
+    outline-offset: 3px;
+}
+
+.art-carousel-previous {
+    left: 1rem;
+}
+
+.art-carousel-next {
+    right: 1rem;
+}
+
+.art-carousel-footer {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0 0.25rem;
+}
+
+.art-carousel-caption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #421919;
+}
+
+.art-carousel-title {
+    font-weight: 600;
+}
+
+.art-carousel-count {
+    flex-shrink: 0;
+    color: #3256af;
+    font-size: 0.875rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.art-carousel-progress {
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgb(50 86 175 / 18%);
+}
+
+.art-carousel-progress span {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: #3256af;
+    transition: width 180ms ease;
+}
+
+@media (max-width: 600px) {
+    .art-carousel-stage {
+        height: clamp(20rem, 58vh, 34rem);
+        padding: 1rem 3.5rem;
+    }
+
+    .art-carousel-previous {
+        left: 0.5rem;
+    }
+
+    .art-carousel-next {
+        right: 0.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .art-carousel-control,
+    .art-carousel-progress span {
+        transition: none;
+    }
 }

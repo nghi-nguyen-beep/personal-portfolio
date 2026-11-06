@@ -1,7 +1,8 @@
 import './includes/css/art.css';
 import PageAnimate from '../components/PageAnimate.js';
 import artGalleryImages from '../components/ArtGalleryImages';
-import ArtPiece from '../components/ArtPiece.js';
+import mixedMediaImages from '../components/ArtMixedMediaImages';
+import ArtCarousel from '../components/ArtCarousel';
 
 function Art() {
     return (
@@ -15,12 +16,15 @@ function Art() {
               My unofficial and non-linear journey to prevent the decline of her cognitive right side.  
             </div>
           </div>
-          <div className= "art-gallery">  
-            {artGalleryImages.map((image, index) => (
-                <div key= {image.title}>
-                  <ArtPiece src={image.src} width={image.width} height={image.height} title={image.title} id={image.id} />
-                </div>
-            ))}
+          <div className="art-content">
+            <section className="art-gallery-section" aria-labelledby="mixed-media-title">
+              <h2 className="art-section-title" id="mixed-media-title">mixed media</h2>
+              <ArtCarousel images={mixedMediaImages} label="Mixed media" />
+            </section>
+            <section className="art-gallery-section" aria-labelledby="digital-title">
+              <h2 className="art-section-title" id="digital-title">digital</h2>
+              <ArtCarousel images={artGalleryImages} label="Digital" />
+            </section>
           </div>
         </div>
         </PageAnimate>

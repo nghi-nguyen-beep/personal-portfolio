@@ -22,221 +22,121 @@ import purpleFlower from '../assets/art/purple-flower.webp';
 import jumping from '../assets/art/jumping.webp';
 import cottageCore from '../assets/art/cottage-core.webp';
 import quyenCouch from '../assets/art/quyen-on-the-couch.webp';
-import quyenAoDai from '../assets/art/quyen-ao-dai.webp';
 import cowboy from '../assets/art/cowboy.webp';
 import chair2 from '../assets/art/chair.webp';
-import calendar from '../assets/art/calendar-2024.webp';
 
 const artGalleryImages = [
     {
-        title: "calendar",
-        id: "calendar",
-        height: "30vw",
-        src: calendar, 
+        title: "All the sisters",
+        src: sisters,
     },
     {
-        title: "quyen's wedding ao dai",
-        id: "quyen's wedding ao dai",
-        width: "30vw",
-        height: "30vw",
-        src: quyenAoDai,
-    },  
-    {
         title: "cowboy",
-        id: "cowboy",
-        width: "30vw",
-        height: "30vw",
-        src: cowboy, 
-    },  
+        src: cowboy,
+    },
     {
         title: "c",
-        id: "c",
-        width: "30vw",
-        height: "30vw",
-        src: chair2, 
-    },   
+        src: chair2,
+    },
     {
-        title: "cottage core but nghi",
-        id: "cottage core but nghi",
-        width: "30vw",
-        height: "30vw",
-        src: cottageCore, 
+        title: "cottage core",
+        src: cottageCore,
     },
     {
         title: "jumping",
-        id: "jumping",
-        width: "30vw",
-        height: "30vw",
-        src: jumping, 
+        src: jumping,
     },
     {
         title: "quyen on the couch",
-        id: "quyen on the couch",
-        width: "30vw",
-        height: "30vw",
-        src: quyenCouch, 
+        src: quyenCouch,
     },
     {
         title: "purple flower",
-        id: "purple flower",
-        width: "30vw",
-        height: "30vw",
-        src: purpleFlower, 
+        src: purpleFlower,
     },
     {
         title: "happy pink",
-        id: "happy pink",
-        width: "30vw",
-        height: "30vw",
-        src: happyPink, 
+        src: happyPink,
     },
     {
         title: "retro",
-        id: "retro",
-        width: "30vw",
-        height: "30vw",
-        src: retro, 
+        src: retro,
     },
     {
         title: "ao dai",
-        id: "ao dai",
-        width: "30vw",
-        height: "30vw",
-        src: aoDaiTwo, 
+        src: aoDaiTwo,
     },
     {
         title: "yuta",
-        id: "yuta",
-        width: "30vw",
-        height: "30vw",
         src: yuta,
-        
     },
     {
         title: "princess polly",
-        id: "princess polly",
-        width: "30vw",
-        height: "30vw",
         src: princessPolly,
-        
     },
     {
         title: "bangs",
-        id: "bangs",
-        width: "30vw",
-        height: "30vw",
         src: bangs,
-        
     },
     {
         title: "onigiri",
-        id: "onigiri",
-        width: "30vw",
-        height: "30vw",
         src: onigiri,
-        
-    },
-    {
-        title: "sisters",
-        id: "sisters",
-        width: "30vw",
-        height: "30vw",
-        src: sisters,
-        
     },
     {
         title: "cat in overalls",
-        id: "cat in overalls",
-        width: "30vw",
-        height: "30vw",
         src: cat,
-        
     },
     {
         title: "vogue",
-        id: "vogue",
-        width: "30vw",
-        height: "30vw",
         src: vogue,
-        
     },
     {
         title: "Rilakkuma Sleeping",
-        id: "bearDryInk",
-        width: "30vw",
-        height: "30vw",
         src: bearDryInk,
     },
 
     {
         title: "小坂なおみ (Naomi Osaka)",
-        id: "naomiOsaka",
-        width: "30vw",
-        height: "30vw",
         src: naomiOsaka,
     },
 
     {
         title: "Wearing an Ao Dai",
-        id: "aoDai",
-        width: "30vw",
-        height: "30vw",
         src: aoDai,
     },
 
     {
         title: "Classic Chair",
-        id: "chair",
-        width: "30vw",
-        height: "30vw",
         src: chair,
     },
 
     {
         title: "Waving Maki",
-        id: "maki",
-        width: "30vw",
-        height: "30vw",
         src: maki,
     },
 
     {
         title: "The Thinker",
-        id: "thinker",
-        width: "30vw",
-        height: "30vw",
         src: thinker,
     },
 
     {
         title: "Family",
-        id: "family",
-        width: "30vw",
-        height: "30vw",
         src: fam,
     },
 
     {
         title: "Chilling",
-        id: "chilling",
-        width: "30vw",
-        height: "30vw",
         src: firstPin,
     },
 
     {
         title: "Bun Sketch",
-        id: "bunSketch",
-        width: "30vw",
-        height: "30vw",
         src: bunSketch,
     },
 
     {
         title: "First Sketch",
-        id: "firstSketch",
-        width: "30vw",
-        height: "30vw",
         src: firstSketch,
     },
 

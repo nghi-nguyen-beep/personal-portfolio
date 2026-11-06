@@ -16,7 +16,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: #4a70bc;
+    background-color: rgba(74, 82, 217, 0.3);
 }
 
 .project-piece-item-video-preview .project-piece-img-container {
@@ -87,7 +87,7 @@
     padding: 1rem 1rem 4rem;
     overflow-y: auto;
     box-sizing: border-box;
-    background-color: rgba(174, 201, 221, 0.9);
+    background-color: rgba(141, 136, 210, 0.9);
     color: #2c1804;
     opacity: 0;
     font-size: 0.9em;
@@ -172,7 +172,7 @@
     justify-content: center;
     align-content: center;
     transition: 300ms;
-    background-color: rgba(169, 194, 213, 0.9);
+    background-color: rgba(141, 136, 210, 0.9);
     color: #2c1804;
     opacity: 1;
     position: absolute;
