@@ -14,20 +14,20 @@ import switzerlandCows from '../assets/art/mixed/switzerland-cows.webp';
 import calendar from '../assets/art/mixed/calendar-2024.webp';
 
 const mixedMediaImages = [
+  { title: 'Calendar 2024 (Oil Pastel and Digital)', src: calendar },
+  { title: 'Persimmon (Oil Pastel)', src: persimmon },
   { title: 'Ba 1 (Pencil)', src: baOne },
   { title: 'Ba 2 (Pencil)', src: baTwo },
   { title: 'Ba 3 (Pencil)', src: baThree },
-  { title: 'Ba and me (Pencil)', src: baMe },
   { title: 'Flower field (Oil Pastel)', src: flowerField },
-  { title: 'Me 1 (Pencil)', src: meOne },
-  { title: 'Me 2 (Pencil)', src: meTwo },
-  { title: 'Me 3 (Pencil)', src: meThree },
-  { title: 'Me 4 (Pencil)', src: meFour },
-  { title: 'Me 5 (Pencil)', src: meFive },
-  { title: 'Persimmon (Oil Pastel)', src: persimmon },
-  { title: 'Switzerland (Oil Pastel)', src: switzerland },
-  { title: 'Switzerland (Oil Pastel)', src: switzerlandCows },
-  { title: 'Calendar 2024 (Oil Pastel and Digital)', src: calendar },
+  { title: 'Mẹ 1 (Pencil)', src: meOne },
+  { title: 'Mẹ 2 (Pencil)', src: meTwo },
+  { title: 'Mẹ 3 (Pencil)', src: meThree },
+  { title: 'Mẹ 4 (Pencil)', src: meFour },
+  { title: 'Mẹ 5 (Pencil)', src: meFive },
+  { title: 'Ba and Mẹ (Pencil)', src: baMe },
+  { title: 'Switzerland with One Cow (Oil Pastel)', src: switzerland },
+  { title: 'Switzerland with Multiple Cows (Oil Pastel)', src: switzerlandCows },
 ];
 
 export default mixedMediaImages;

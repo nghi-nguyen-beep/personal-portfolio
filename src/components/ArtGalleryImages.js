@@ -27,67 +27,67 @@ import chair2 from '../assets/art/chair.webp';
 
 const artGalleryImages = [
     {
-        title: "All the sisters",
+        title: "All the Sisters",
         src: sisters,
     },
     {
-        title: "cowboy",
+        title: "Cowboy",
         src: cowboy,
     },
     {
-        title: "c",
+        title: "Chair",
         src: chair2,
     },
     {
-        title: "cottage core",
+        title: "Cottagecore",
         src: cottageCore,
     },
     {
-        title: "jumping",
+        title: "Jumping",
         src: jumping,
     },
     {
-        title: "quyen on the couch",
+        title: "Quyen on the Couch",
         src: quyenCouch,
     },
     {
-        title: "purple flower",
+        title: "Purple Flower",
         src: purpleFlower,
     },
     {
-        title: "happy pink",
+        title: "Happy Pink",
         src: happyPink,
     },
     {
-        title: "retro",
+        title: "Retro",
         src: retro,
     },
     {
-        title: "ao dai",
+        title: "Ao Dai",
         src: aoDaiTwo,
     },
     {
-        title: "yuta",
+        title: "Yuta",
         src: yuta,
     },
     {
-        title: "princess polly",
+        title: "Princess Polly",
         src: princessPolly,
     },
     {
-        title: "bangs",
+        title: "Bangs",
         src: bangs,
     },
     {
-        title: "onigiri",
+        title: "Onigiri",
         src: onigiri,
     },
     {
-        title: "cat in overalls",
+        title: "Cat in Overalls",
         src: cat,
     },
     {
-        title: "vogue",
+        title: "Vogue",
         src: vogue,
     },
     {
